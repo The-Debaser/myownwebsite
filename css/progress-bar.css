@@ -8,6 +8,7 @@
     height: 1vh;
     bottom: .2vh;
     left: 0;
+    z-index: 400;
 }
 
 .progress-bar {
