@@ -1,0 +1,12 @@
+@import "colors.css";
+
+body {
+    align-items: center;
+    margin: 0 auto;
+    background-image: var(--bc-body);
+    height: 300vh;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}

@@ -1,0 +1,48 @@
+.images{
+    top: 5vh;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    grid-template-columns: auto auto auto auto auto;
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-row: span;
+    direction: ltr;
+    background-color: #fff;
+    
+}
+
+.image-container{
+    /* margin-left: 2.5%; */
+    /* margin-bottom: 5vh; */
+    /* width: 20%; */
+    /* float: left; */
+    /* position: relative; */
+    text-align: center;
+    float: bottom;
+    position: relative;
+
+}
+
+.image-container > img {
+    border-radius: 5%;
+    cursor: pointer;
+    margin-bottom: 4.5%;
+    position: relative;
+    height: auto;
+    float: bottom;
+    width: 95%;
+    object-fit: contain;
+    vertical-align: middle;
+    opacity: .9;
+    display: block;
+}
+
+.image-container > img:hover {
+    opacity: 1;
+    scale: 1.1;
+    box-shadow: 1vh 1vh 2vh black;
+    z-index: 100;
+    transition: 150ms ease-in;
+}

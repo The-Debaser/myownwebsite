@@ -1,0 +1,10 @@
+:root {
+    --bc-button: #D7AA5B;
+    --text-button: black;
+    --button-h-border: black;
+    --bc-body: linear-gradient(#005B4B, #FFEDCB, #005B4B, #FFEDCB);
+    --bc-button-h: none;
+    --text-button-h: #D7AA5B;
+    --bc-banner: none;
+    --bc-p-bar: #D7AA5B;
+}
