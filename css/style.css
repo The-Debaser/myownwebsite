@@ -1,5 +1,124 @@
-@import "body.css";
-@import "progress-bar.css";
-@import "banner.css";
-@import "images.css";
-@import "images-v2.css";
+body{
+    margin: 0;
+    padding: 0;
+    background-color: mintcream;
+    height: 300vh;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.gallery-column {
+    margin: 5vh 34.6667%;
+    position: absolute;
+    height: auto;
+    width: 30.66667%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.gallery-column>img {
+    width: 100%;
+    cursor: pointer;
+    margin:  2% 0;
+    padding: 0;
+    object-fit: scale-down;
+    border: none;
+    transition: 100ms ease-out;
+    transition-delay: 80ms;
+    box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+-webkit-box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+-moz-box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+}
+
+.gallery-column>img:hover {
+    scale: 1.1;
+    z-index: 10;
+    transition: 150ms ease-in;
+    box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+-webkit-box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+-moz-box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+}
+
+
+
+
+
+
+
+
+
+
+
+.gallery-column2 {
+
+    position: absolute;
+    margin: 5vh 2%;
+    height: auto;
+    width: 30.66667%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.gallery-column2>img {
+    width: 100%;
+    cursor: pointer;
+    margin:  2% 0;
+    padding: 0;
+    object-fit: scale-down;
+    border: none;
+    transition: 100ms ease-out;
+    transition-delay: 80ms;
+    box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+-webkit-box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+-moz-box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+}
+
+.gallery-column2>img:hover {
+    scale: 1.1;
+    z-index: 10;
+    transition: 150ms ease-in;
+    box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+-webkit-box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+-moz-box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+}
+
+
+
+
+
+
+.gallery-column3 {
+
+    position: absolute;
+    margin: 5vh 67.3334%;
+    height: auto;
+    width: 30.66667%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.gallery-column3>img {
+    width: 100%;
+    cursor: pointer;
+    margin:  2% 0;
+    padding: 0;
+    object-fit: scale-down;
+    border: none;
+    transition: 100ms ease-out;
+    transition-delay: 80ms;
+    box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+-webkit-box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+-moz-box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
+}
+
+.gallery-column3>img:hover {
+    scale: 1.1;
+    z-index: 10;
+    transition: 150ms ease-in;
+    box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+-webkit-box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+-moz-box-shadow: 13px 33px 41px 2px rgba(0,0,0,0.35);
+}
