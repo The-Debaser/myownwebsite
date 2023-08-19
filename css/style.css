@@ -13,7 +13,7 @@ body{
 
 @media screen and (min-width: 1440px) {
     .gallery-container{
-      max-width: 50%;
+      width: 50%;
     }
 }
 
