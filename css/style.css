@@ -49,7 +49,7 @@ body{
 -moz-box-shadow: 13px 10px 30px -3px rgba(0,0,0,0.38);
 }
 
-@media screen and (min-width: 1000px) {.gallery>img:hover {
+@media screen and (min-width: 1284px) {.gallery>img:hover {
     /* scale: 1.1; */
     transition-delay: 0ms;
     scale: 1.05;
