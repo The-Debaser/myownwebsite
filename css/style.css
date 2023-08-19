@@ -6,7 +6,7 @@ body{
     font-family: Arial, sans-serif;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
 .gallery-container{
     position: relative;
     margin: 5vh auto;
