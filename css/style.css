@@ -13,6 +13,7 @@ body{
 }
 
 .gallery {
+    background-color: red;
     position: absolute;
     height: auto;
     /* width: 30.66667%; */
