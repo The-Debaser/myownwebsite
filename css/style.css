@@ -6,14 +6,19 @@ body{
     font-family: Arial, sans-serif;
 }
 
+@media screen and (max-width: 1440px) {
 .gallery-container{
     position: relative;
     margin: 5vh auto;
+    width: 100%;
+}
 }
 
 @media screen and (min-width: 1440px) {
     .gallery-container{
-      width: 50%;
+    position: relative;
+    margin: 5vh auto;
+    width: 50%;
     }
 }
 
