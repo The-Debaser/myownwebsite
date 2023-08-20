@@ -18,7 +18,7 @@ window.onload = function () {
     document.head.append(style);
   }
   if (containerWidth > 1440) {
-    const marginOfImg = (containerSizelim / 100) * marginPrecent;
+    const marginOfImg = (containerWidth/ 100) * marginPrecent;
     const bottomImg = marginOfImg + "px";
     addStyle(
       `
@@ -64,7 +64,7 @@ window.onresize = function () {
     document.head.append(style);
   }
   if (containerWidth > 1440) {
-    const marginOfImg = (containerSizelim / 100) * marginPrecent;
+    const marginOfImg = (containerWidth / 100) * marginPrecent;
     const bottomImg = marginOfImg + "px";
     addStyle(
       `
