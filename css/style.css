@@ -24,7 +24,6 @@ body{
 
 
 .gallery {
-    background-color: red;
     position: absolute;
     height: auto;
     width: 49%;
@@ -39,7 +38,7 @@ body{
 .gallery>img {
     width: 100%;
     cursor: pointer;
-    margin-bottom: 0 1%;
+    margin-bottom: 1% 0;
     padding: 0;
     object-fit: fit;
     border: none;
