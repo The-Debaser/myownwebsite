@@ -29,14 +29,14 @@ body{
 
     background-color: red;
 
-    width: 49%;
+    width: 49.25%;
 
     display: grid;
     grid-template-columns: 100%;
 }
 
 .column2 {
-    margin-left: 51%;
+    margin-left: 50.5%;
 }
 
 /* .column3 {
@@ -46,7 +46,7 @@ body{
 .gallery>img {
     width: 100%;
     cursor: pointer;
-    margin-bottom:  1vh;
+    margin-bottom:  .75vh;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
