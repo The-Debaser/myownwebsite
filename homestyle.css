@@ -1,6 +1,7 @@
 .twocontainer{
     position: relative;
     top: 5vh;
+    width: 100%;
 }
 
 .imagehome{
