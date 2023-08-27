@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  height: 3000vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    background-color: #1f1f1f;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 5vh;
+}
+
+.bigimg {
+  width: 100%;
+  height: var(--bigimgWidth);
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.image {
+  margin: var(--imagePad) auto;
+  padding: 1%;
+  box-sizing: border-box;
+  width: 20%;
+  height: var(--imgWidth);
+  float: left;
+  cursor: pointer;
+  transition: 300ms ease-out;
+  border-radius: 25%;
+  background-color: #00000000;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  transition: 200ms linear;
+
+}
+
+.image img:hover {
+    border-radius: 5%;
+}
+
+.image img {
+    border-radius: inherit;
+    object-fit: cover;
+}
+
+.bigimg img {
+    object-fit: cover;
+    border-radius: 5%;
+}
