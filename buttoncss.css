@@ -10,7 +10,7 @@ body {
   background-color: #1f1f1f;
   height: auto;
   position: relative;
-  top: 5vh;
+  margin: 5vh auto;
 }
 
 @media screen and (max-width: 1440px) {
